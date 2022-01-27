@@ -1,0 +1,272 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    
+    background-color: #FFFFFF;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    width: 870px;
+    z-index: 1;
+    font-family:  sans-serif;
+    font-weight: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: smaller;
+
+    
+}
+
+.top-right{
+    margin-right: 70px;
+    float: right;
+    
+}
+
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+
+.topnav a:hover {
+  
+  color: #ac9437;
+}
+
+
+.topnav a.active {
+  margin-left: 70px;
+  color: #ac9437;
+}
+
+
+
+
+.firstimg{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 870px 800px;
+    background-image: url("./image3.png");
+    height: 85vh;
+    width: 870px;
+    
+}
+
+
+
+.centered {
+    position: static;
+    text-align: center;
+    color: floralwhite;
+    font-size: 30px;
+    padding-top: 175px;
+    font-family: Times, Times New Roman, serif;
+    letter-spacing: 12px;
+    line-height: 1.5;
+    
+}
+
+.container{
+    margin: 40px;
+}
+
+
+.row {
+    display: grid;
+    grid-template-columns: 275.45px auto;
+    grid-template-rows: 430px;
+    grid-column-gap: 40px;
+}
+
+
+
+.secondimg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("./image1.png");
+}
+
+.services{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0;
+    margin-top: 16px;
+    letter-spacing: 12px;
+}
+
+.flower{
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./flower.png");
+
+}
+
+.flowertext{
+    position: static;
+    text-align: center;
+    color: floralwhite;
+    font-size: 20px;
+    padding-top: 15px;
+    font-family: Times, Times New Roman, serif;
+    letter-spacing: 10px;
+    margin: 55px 20px;
+}
+
+.dream{
+    margin: 82px 0 48px 0;
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 2;
+}
+
+.discover-button{
+    margin-bottom: 32px;
+}
+
+
+.img-100{
+    width: 471.55px;
+    height: 430px;
+}
+
+.button {
+    background-color: transparent;
+    border: 1px solid;
+    color: floralwhite;
+    padding: 10px 70px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+q{
+    font-size: 40px;
+    quotes: "\201C""\201D""\2018""\2019";
+    line-height: 1.4;
+    text-align: center;
+}
+
+q:before {
+    content: no-open-quote;
+}
+q:after {
+    content: close-quote;
+    position: relative;
+    top: 25px;
+    color: #000;
+    font-size: 1.5em;
+}
+
+
+
+.thirdpart{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 15px;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    font-weight: 500;
+}
+
+
+.leftarrow{
+    position: relative;
+    right: 380px;
+    top: 120px;
+    font-size: 50px;
+    font-weight: lighter;
+    color:#af9453;
+}
+
+
+.rightarrow{
+    position: relative;
+    left: 365px;
+    bottom: 155px;
+    font-size: 50px;
+    color:#af9453;
+}
+
+#jimmy{
+    font-family: sans-serif;
+    color: #af9453;
+    font-size: 10px;
+    padding-top: 20px;
+    
+}
+
+.fourthimg{
+    background-attachment: fixed;
+    position: relative;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: 848px 1000px;
+    background-image: url("./image2.png");
+    height: 86vh;
+
+}
+
+.gallery{
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./flower.png");
+    float: right;
+    width: 260.367px;
+    height: 430px;
+    margin:50px 50px;
+}
+
+.gallery-button{
+    padding: 10px 40px;
+}
+
+.memories{
+    margin: 82px 0 48px 0;
+    font-size: 15px;
+    letter-spacing: 6px;
+    line-height: 2;
+}
+
+.footer{
+    background-color:#af9453;
+    width: 789px;
+    margin-top: 70px;
+    
+}
+
+.footer-row{
+    display: grid;
+    grid-template-columns: 105px 100px AUTO;
+    grid-template-rows: auto;
+    grid-column-gap: 12px;
+    padding: 50px 90px;
+    color: floralwhite;
+    font-family: sans-serif;
+    line-height: 1.4;
+    font-size: 10px;
+}
+
+.vl {
+    border-left: 1px solid floralwhite;
+    height: 50px;
+    float: right;
+    top:0px;
+    position: relative;
+}
+
