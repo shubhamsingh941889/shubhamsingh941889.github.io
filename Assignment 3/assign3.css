@@ -207,6 +207,8 @@ q:after {
     color: #af9453;
     font-size: 10px;
     padding-top: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
     
 }
 
