@@ -62,14 +62,25 @@ body {
   padding-left: 50px; /* Add padding to create space from the left edge */
 }
 
-.home .text h1 {
-  font-size: 48px;
-  color: #333;
+.home .text-one{
+  font-size: 30px;
+  color: #000000;
 }
-
-.home .text p {
-  font-size: 24px;
-  color: #777;
+.home .text-two{
+  color: #000000;
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+.home .text-three{
+  font-size: 40px;
+  margin: 5px 0;
+  color: #da7353;
+}
+.home .text-four{
+  font-size: 23px;
+  margin: 5px 0;
+  color: #0E2431;
 }
 
 /* About Section */
