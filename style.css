@@ -55,10 +55,11 @@ body {
 .home {
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start; /* Align items to the left */
   align-items: center;
   background: #f4f4f4;
-  text-align: center;
+  text-align: left; /* Ensure left alignment */
+  padding-left: 50px; /* Add padding to create space from the left edge */
 }
 
 .home .text h1 {
@@ -113,6 +114,25 @@ body {
   flex: 1;
   border-radius: 8px;
   min-width: 250px;
+}
+
+/* Experience Section */
+.experience {
+  background-color: #f9f9f9;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.experience .box {
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 8px;
+  min-width: 250px;
+  flex: 1 1 300px; /* Ensure every div takes up equal space */
+  display: block;
+  visibility: visible; /* Ensure all divs are visible */
 }
 
 /* Footer */
@@ -187,6 +207,11 @@ footer .text a {
   .skills .boxes .box {
     min-width: 100%;
     text-align: center;
+  }
+
+  .experience .box {
+    flex: 1 1 100%; /* Stack experience divs vertically on mobile */
+    min-width: 100%;
   }
 }
 
